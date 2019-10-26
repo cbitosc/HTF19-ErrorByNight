@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>particles.js</title>
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="css/style2.css">
+
+    <style>
+        .main
+        {
+            display:inline-block;
+            border:1px solid white;
+            padding: 20px;
+            position: absolute;
+            z-index: 1;
+            background: rgba(0,0,0,0.8);
+            color: #fff;
+        }
+        tr,td
+        {
+            text-align: center;
+        }
+        .font
+        {
+            font-size: 20px;
+        }
+        .button
+        {
+            /*font-size: 200%;   */
+        }
+        .field {
+            display: block;
+            padding-bottom: 16px;
+            font-size: 24px;
+        }
+        .field p {
+            margin: 0;
+            padding: 0 0 16px;
+        }
+        .field input,
+        .field button {
+            font-size: inherit;
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Diplomata SC' rel='stylesheet'>
+</head>
+<body>
+
+<div class="container">
+    <!-- particles.js container -->
+    <div class="particles" id="particles-js"></div>
+    <!--/////////////////////////////////////////-->
+    <div class="main">
+
+        <form action="login.php" method="POST">
+            <label class="field">
+                <p>Username</p>
+                <input class="font" type="text" name="userNameInput"/>
+            </label>
+            <label class="field">
+                <p>Password</p>
+                <input class="font" type="password" name="userPassword"/>
+            </label>
+            <br>
+            <button type="submit" style="font: 24px bold;color: #ffffff;background-color: darkgoldenrod;width: 100%;">Submit</button>
+        </form>
+    </div>
+    <!--/////////////////////////////////////-->
+</div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="../technopoly-welcome-page-gh-pages/js/app.js"></script>
+
+<script src="js/lib/stats.js"></script>
+<!-- scripts -->
+<!-- stats.js -->
+</body>
