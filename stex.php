@@ -1,5 +1,6 @@
 <html>
 	<body>
+
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <link href="css/mystyle.css" rel="stylesheet">
@@ -14,7 +15,7 @@
                     <br>
                  </h3>
 		<?php
-		echo "<center><form action='marksnew.php' method='post'>";
+		echo "<center><form action='marksnew.php' method='POST'>";
 		echo "SLIP1:<input type='text' name='stm1'/></br></br>";
 		echo "SLIP2:<input type='text' name='st2m1'/></br></br>";
 		echo "MID1:<input type='text' name='mtm1'/></br></br>";
@@ -23,5 +24,15 @@
 		echo "<button>Submit</button>";
 		echo "</form></center>";
         ?>
+=======
+	<?php
+		echo "<form action='marksnew.php' method='POST'>";
+		echo"SLIP1:<input type='text' name='marks1'/></br>";
+		echo"SLIP2:<input type='text' name='marks2'/></br>";
+		echo"MID1:<input type='text' name='marks3'/></br>";
+		echo"MID2:<input type='text' name='marks4'/></br>";
+		echo"<button>enter</button>";
+			echo"</form>";
+	?>
 	</body>
 </html>
